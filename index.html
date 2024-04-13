@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listado de Tareas</title>
+    <!-- Se enlaza el archivo CSS externo para estilizar la página -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Título de la lista de tareas -->
+        <h1>Tareas</h1>
+        <!-- Contenedor para el campo de entrada y el botón de añadir tarea -->
+        <div class="input-container">
+            <!-- Campo de entrada para añadir nueva tarea -->
+            <input type="text" id="taskInput" placeholder="Añadir nueva tarea">
+            <!-- Campo de fecha de inicio -->
+            <input type="date" id="startDate" placeholder="Fecha de inicio">
+            <!-- Campo de hora de inicio -->
+            <input type="time" id="startTime" placeholder="Hora de inicio">
+            <!-- Campo de fecha de cierre -->
+            <input type="date" id="endDate" placeholder="Fecha de cierre">
+            <!-- Campo de hora de cierre -->
+            <input type="time" id="endTime" placeholder="Hora de cierre">
+            <!-- Botón para añadir tarea, se activa al hacer clic -->
+            <button onclick="addTask()">Añadir Tarea</button>
+        </div>
+        <!-- Lista de tareas -->
+        <ul id="taskList"></ul>
+        <!-- Contenedor para los botones de filtro -->
+        <div class="filter-container">
+            <!-- Botón para mostrar todas las tareas -->
+            <button onclick="filterTasks('all')">Todas las Tareas </button>
+            <!-- Botón para mostrar solo tareas activas -->
+            <button onclick="filterTasks('active')">Activas</button>
+            <!-- Botón para mostrar solo tareas completadas -->
+            <button onclick="filterTasks('completed')">Completadas</button>
+            <!-- Botón para mostrar tareas no completadas en la fecha y hora indicada -->
+            <button onclick="filterIncompleteTasks()">Tareas Vencidas</button>
+        </div>
+        <!-- Contenedor para el campo de entrada y el botón de añadir tarea -->
+    </div>
+    <!-- Se enlaza el archivo JavaScript externo para la funcionalidad -->
+    <script src="index.js"></script>
+</body>
+</html>
+

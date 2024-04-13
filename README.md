@@ -40,6 +40,6 @@
 5. Una vez instaladas las dependencias, verifica si hay algún archivo de entrada principal del proyecto, como index.html  app.js. Este archivo suele ser el punto de entrada para ejecutar el proyecto.
 6. Dependiendo del tipo de proyecto, ejecuta el comando adecuado para iniciar el servidor local o la aplicación. Por ejemplo, si el proyecto es una aplicación web HTML/JavaScript simple, puedes abrir el archivo index.html en tu navegador web. Si es un proyecto backend basado en Node.js, podrías ejecutar un comando similar a node app.js o npm start.
 
-Enlace al despliegue del repositorio en Github:https://github.com/OctavioTadeoGarciaOrozco/Proyecto.git
+Enlace al despliegue del repositorio en Github: https://github.com/OctavioTadeoGarciaOrozco/1er-Parcial-Proyecto.git
 Enlace al despliegue de la aplicación en GitHub Pages: https://octaviotadeogarciaorozco.github.io/
 Enlace al despliegue practicas de clase subidas en Github: https://github.com/OctavioTadeoGarciaOrozco/Practicas-Primer-Parcial.git 
